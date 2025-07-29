@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+
+.web {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #212529;
+}
+
+p {
+  font-weight: 500;
+  color: #6C757D;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topSelect {
+  display: flex;
+  align-items: center;
+}
+
+.selectMeun {
+  display: flex;
+  justify-content: space-between;
+  width: 174px;
+  margin-left: 48px;
+}
+
+span {
+  font-weight: 700;
+  color: #DEE2E6;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.content {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+h3 {
+  margin-top: 31px;
+  margin-bottom: 31px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.shop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideMenu {
+  width: 15%;
+  margin-right: 24px;
+}
+.sideMenu li {
+  margin-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.select {
+  color: #57A203;
+}
+
+.shoesList {
+  width: 85%;
+}
+
+.shoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.shoes li {
+  width: 32%;
+  margin-bottom: 48px;
+}
+.shoes img {
+  margin-bottom: 12px;
+}
+
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.price {
+  font-weight: 500;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+.page a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.pagebox {
+  display: flex;
+  margin-left: 12px;
+  margin-right: 4px;
+}
+.pagebox a {
+  padding: 8px 15px;
+  margin-right: 8px;
+}
+.pagebox a:hover {
+  background-color: #F8F9FA;
+}
+.pagebox a:active {
+  background-color: #C0FA73;
+}
+.pagebox .doubleNumber {
+  padding: 8px 10.5px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.ad {
+  display: flex;
+  background-color: #E8FEC5;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+.ad button {
+  margin: 24px;
+  color: #FFFFFF;
+  background-color: #212529;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-weight: 500;
+}
+.ad button:hover {
+  background-color: #495057;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #F8F9FA;
+}
+
+.footerSelect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 32px;
+  border-top: 1px solid #DEE2E6;
+  padding-bottom: 64px;
+}/*# sourceMappingURL=all.css.map */

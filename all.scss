@@ -1,0 +1,208 @@
+@import 'reset';
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+
+.web {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #212529;
+}
+
+p {
+    font-weight: 500;
+    color: #6C757D;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topSelect {
+    display: flex;
+    align-items: center;
+}
+
+.selectMeun {
+    display: flex;
+    justify-content: space-between;
+    width: 174px;
+    margin-left: 48px;
+}
+
+
+span {
+    font-weight: 700;
+    color: #DEE2E6;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+.content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+h3 {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideMenu {
+    width: 15%;
+    margin-right: 24px;
+
+    li {
+        margin-bottom: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+}
+
+.select {
+    color: #57A203;
+
+}
+
+.shoesList {
+    width: 85%;
+}
+
+.shoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+        width: 32%;
+        margin-bottom: 48px;
+    }
+
+    img {
+        margin-bottom: 12px;
+    }
+}
+
+h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.price {
+    font-weight: 500;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+
+    a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.pagebox {
+    display: flex;
+    margin-left: 12px;
+    margin-right: 4px;
+
+    a {
+        padding: 8px 15px;
+        margin-right: 8px;
+        &:hover{
+            background-color: #F8F9FA;
+
+        }
+        &:active{
+            background-color:  #C0FA73;
+
+        }
+    }
+
+    .doubleNumber {
+        padding: 8px 10.5px;
+    }
+
+}
+
+
+
+
+h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+
+.ad {
+    display: flex;
+    background-color: #E8FEC5;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+
+    button {
+        margin: 24px;
+        color: #FFFFFF;
+        background-color: #212529;
+        border-radius: 4px;
+        padding: 12px 24px;
+        font-weight: 500;
+        &:hover{
+            background-color:  #495057;
+
+        }
+    }
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #F8F9FA;
+}
+
+.footerSelect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+
+
+.copyright {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 32px;
+    border-top: 1px solid #DEE2E6;
+    padding-bottom: 64px;
+}
