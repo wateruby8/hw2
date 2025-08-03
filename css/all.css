@@ -69,8 +69,8 @@ body {
 }
 
 .web {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 a {
@@ -156,6 +156,9 @@ h3 {
 }
 .shoes img {
   margin-bottom: 12px;
+}
+.shoes img:hover {
+  border: 1px solid #212529;
 }
 
 h6 {
@@ -245,4 +248,181 @@ footer {
   padding-top: 32px;
   border-top: 1px solid #DEE2E6;
   padding-bottom: 64px;
+}
+
+.moreShoes {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.moreShoes h4 {
+  margin-bottom: 16px;
+}
+
+.moreBox ul {
+  display: flex;
+  justify-content: space-between;
+}
+.moreBox ul li {
+  width: 24%;
+}
+.moreBox ul p {
+  color: #212529;
+}
+
+.shoesBox {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  display: flex;
+}
+
+.shoesPicture {
+  width: 60%;
+  margin-right: 24px;
+}
+.shoesPicture ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.shoesPicture li {
+  width: 49%;
+  margin-bottom: 8px;
+}
+
+.shoesDescribe {
+  width: 40%;
+}
+.shoesDescribe .tagMain {
+  color: #212529;
+  font-weight: 500;
+  margin-left: 0;
+}
+.shoesDescribe .tag {
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  margin-bottom: 16px;
+}
+
+.price {
+  margin-bottom: 16px;
+  color: #57A203;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+}
+.price span {
+  color: #ADB5BD;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.shoesStory {
+  margin-bottom: 20px;
+}
+.shoesStory p {
+  color: #212529;
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+}
+
+.color {
+  margin-bottom: 32px;
+}
+.color p {
+  color: #212529;
+  margin-bottom: 8px;
+}
+
+.colorPicture ul {
+  display: flex;
+}
+.colorPicture ul li {
+  margin-right: 8px;
+}
+.colorPicture ul img {
+  width: 64px;
+}
+.colorPicture ul img:hover {
+  border: 1px solid #212529;
+}
+.colorPicture ul p {
+  font-weight: 500;
+  color: #6C757D;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.size {
+  margin-bottom: 48px;
+}
+.size p {
+  color: #212529;
+  margin-bottom: 8px;
+}
+.size ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.size ul p {
+  padding: 12px 24px;
+  margin-right: 8px;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+}
+.size ul p:hover {
+  border: 1px solid #212529;
+}
+.size ul .sold {
+  border: 1px solid #DEE2E6;
+  color: #DEE2E6;
+}
+.size .note {
+  color: #D74F4F;
+  font-size: 14px;
+}
+
+.click {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.click button {
+  text-align: center;
+  width: 49%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 4px;
+}
+.click .add {
+  color: #212529;
+  background-color: #ffffff;
+}
+.click .book {
+  background-color: #212529;
+  color: #FFFFFF;
+}
+.click i {
+  margin-right: 8px;
+}
+
+.aboutShoes .aboutTitle {
+  font-weight: 500;
+  color: #212529;
+  margin-bottom: 4px;
+}
+.aboutShoes li {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #DEE2E6;
 }/*# sourceMappingURL=all.css.map */
